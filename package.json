@@ -1,0 +1,31 @@
+{
+  "name": "cleanest-premium-concept",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5184 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4184 --strictPort",
+    "test:ui": "node scripts/check-ui.mjs",
+    "test:facts": "node scripts/check-facts.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.5.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.4.3",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/vite": "^4.1.0",
+    "@playwright/test": "^1.58.0"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
