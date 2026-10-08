@@ -40,3 +40,7 @@ Keep noindex enabled and do not connect the client's official domain. The social
 ## Client confirmation
 
 Confirm current experience wording, branch-specific services/areas, contacts/hours, photo rights and current team imagery, testimonial authenticity and publication permission, high-resolution branding, and final enquiry recipients/privacy/upload/retention requirements. Business content and imagery remain attributable to Cleanest; this concept grants no additional reuse rights.
+
+## Current service area
+
+The client confirmed on 8 October 2026 that Cleanest serves Johannesburg only. This supersedes older location information on the official source website. Forms, metadata, service areas and testimonial content reflect that instruction.

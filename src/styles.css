@@ -51,3 +51,10 @@ html{--header-clearance:160px;scroll-padding-top:var(--header-clearance)}
   .about-section .section{padding-bottom:35px}
   #work.section{padding-top:39px}
 }
+
+/* One Johannesburg testimonial, with no vacant third column. */
+.testimonials-layout{grid-template-columns:.7fr 2fr}.testimonial blockquote{min-height:0}
+@media(max-width:900px){.testimonials-layout{grid-template-columns:1fr}.testimonials-layout h2{grid-column:auto}}
+
+/* Crop the replacement maintenance photo around the work in progress. */
+@media(min-width:768px){.hero-image>img{object-position:center 28%}}
